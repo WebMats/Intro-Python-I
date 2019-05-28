@@ -30,7 +30,6 @@ print(x)
 # YOUR CODE HERE 
 print(len(x))
 # Print all the values in x multiplied by 1000
-result = [f" {i} times 100 is {str(i * 100)}" for i in x]
-for i in result:
-    print(i)
+print(*[f" {i} times 100 is {str(i * 100)}\n" for i in x])
+
 # YOUR CODE HERE
